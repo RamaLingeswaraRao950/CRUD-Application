@@ -31,13 +31,16 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 3. Install required dependencies:
 
       3.1. Ant Design ::
-      npm install antd
+
+   npm install antd
 
       3.2. Tailwind CSS ::
-      npm install -D tailwindcss postcss autoprefixer
-      npx tailwindcss init
 
-4. Start the development server : npm start
+   npm install -D tailwindcss postcss autoprefixer
+
+   npx tailwindcss init
+
+5. Start the development server : npm start
 
 ### Deployment :
 
