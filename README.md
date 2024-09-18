@@ -42,4 +42,4 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 
 1. The CRUD Application is now live and deployed on Vercel.
 
-2. 
+2. Live Demo :: https://crud-application-qxc5.vercel.app/
