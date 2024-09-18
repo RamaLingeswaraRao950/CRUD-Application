@@ -1,10 +1,10 @@
-lets users create, view, edit, and delete tasks. It features task prioritization (High, Medium, Low), due date selection, and a status toggle to mark tasks as "Completed" or "In Progress." The app provides an intuitive interface for efficient task management
+It lets users create, view, edit, and delete tasks. It features task prioritization (High, Medium, Low), due date selection, and a status toggle to mark tasks as "Completed" or "In Progress." The app provides an intuitive interface for efficient task management
 
 ### Features : 
 Task Title Input, Task Description Input, Due Date Selection, Priority Selection, Add Task Functionality, Status Toggle, Task Deletion.
 
 ### Technologies Used : 
-React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, HTML5, Vercel.
+React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, HTML.
 
 ### Usage :
 1. Enter Task Title: Type the task description in the input field labeled "Enter task."
