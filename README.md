@@ -16,7 +16,7 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 
 4. Select Priority : Choose the priority level for the task from the dropdown menu (High Priority, Medium Priority, Low Priority).
 
-5. Add Task : Click the "ADD TASK" button to add the task to the appropriate priority category.
+5. Add Task : Click the "Add Task" button to add the task to the appropriate priority category.
 
 6. Toggle Status: Use the status toggle to mark the task as either "Completed" or "In Progress" for easy tracking.
 
@@ -30,10 +30,10 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 
 3. Install required dependencies:
 
-      3.1. Ant Design (for UI components) ::
+      3.1. Ant Design ::
       npm install antd
 
-      3.2. Tailwind CSS (for utility-first styling) ::
+      3.2. Tailwind CSS ::
       npm install -D tailwindcss postcss autoprefixer
       npx tailwindcss init
 
