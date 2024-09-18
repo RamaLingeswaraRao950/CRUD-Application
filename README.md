@@ -1,3 +1,4 @@
+### Description :
 It lets users create, view, edit, and delete tasks. It features task prioritization (High, Medium, Low), due date selection, and a status toggle to mark tasks as "Completed" or "In Progress." The app provides an intuitive interface for efficient task management
 
 ### Features : 
@@ -29,12 +30,12 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 
 3. Install required dependencies:
 
-   3.1. Ant Design (for UI components) ::
-   npm install antd
+      3.1. Ant Design (for UI components) ::
+      npm install antd
 
-   3.2. Tailwind CSS (for utility-first styling) ::
-   npm install -D tailwindcss postcss autoprefixer
-   npx tailwindcss init
+      3.2. Tailwind CSS (for utility-first styling) ::
+      npm install -D tailwindcss postcss autoprefixer
+      npx tailwindcss init
 
 4. Start the development server : npm start
 
@@ -42,4 +43,4 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 
 1. The CRUD Application is now live and deployed on Vercel.
 
-2. Live Demo :: https://crud-application-qxc5.vercel.app/
+2. Live Demo :::    https://crud-application-qxc5.vercel.app/
