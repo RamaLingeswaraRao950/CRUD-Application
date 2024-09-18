@@ -4,7 +4,7 @@ It lets users create, view, edit, and delete tasks. It features task prioritizat
 Task Title Input, Task Description Input, Due Date Selection, Priority Selection, Add Task Functionality, Status Toggle, Task Deletion.
 
 ### Technologies Used : 
-React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, HTML.
+React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, CSS, HTML.
 
 ### Usage :
 1. Enter Task Title: Type the task description in the input field labeled "Enter task."
@@ -37,3 +37,9 @@ React.js, TypeScript, JavaScript, Ant Design, Tailwind CSS, HTML.
    npx tailwindcss init
 
 4. Start the development server : npm start
+
+### Deployment :
+
+1. The CRUD Application is now live and deployed on Vercel.
+
+2. 
