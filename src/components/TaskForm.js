@@ -1,12 +1,8 @@
+// src/components/TaskForm.js
 import React, { useState } from 'react';
-import { Task } from '../types/Task';
 
-interface TaskFormProps {
-  onSubmit: (task: Task) => void;
-}
-
-const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
-  const [task, setTask] = useState<Task>({
+const TaskForm = ({ onSubmit }) => {
+  const [task, setTask] = useState({
     id: '',
     title: '',
     description: '',
@@ -15,7 +11,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
     status: 'In Progress',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit(task);
     setTask({ id: '', title: '', description: '', dueDate: new Date(), priority: 'Low', status: 'In Progress' }); // Reset form
@@ -64,7 +60,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
           <select
             className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out"
             value={task.priority}
-            onChange={(e) => setTask({ ...task, priority: e.target.value as Task['priority'] })}
+            onChange={(e) => setTask({ ...task, priority: e.target.value })}
             required
           >
             <option value="Low">Low</option>

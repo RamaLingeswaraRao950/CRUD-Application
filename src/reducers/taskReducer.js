@@ -1,13 +1,6 @@
-// src/reducers/taskReducer.ts
-import { Task } from '../types/Task';
+// src/reducers/taskReducer.js
 
-type TaskAction =
-  | { type: 'ADD_TASK'; task: Task }
-  | { type: 'EDIT_TASK'; taskId: string; updatedTask: Partial<Task> }
-  | { type: 'DELETE_TASK'; taskId: string }
-  | { type: 'TOGGLE_TASK_STATUS'; taskId: string };
-
-export const taskReducer = (state: Task[], action: TaskAction): Task[] => {
+export const taskReducer = (state, action) => {
   switch (action.type) {
     case 'ADD_TASK':
       return [...state, action.task];

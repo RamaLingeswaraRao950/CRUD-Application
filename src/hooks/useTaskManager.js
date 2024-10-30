@@ -1,26 +1,25 @@
-// src/hooks/useTaskManager.ts
+// src/hooks/useTaskManager.js
 import { useReducer } from 'react';
 import { taskReducer } from '../reducers/taskReducer';
-import { Task } from '../types/Task';
 
-const initialTasks: Task[] = [];
+const initialTasks = [];
 
 export const useTaskManager = () => {
   const [tasks, dispatch] = useReducer(taskReducer, initialTasks);
 
-  const addTask = (task: Task) => {
+  const addTask = (task) => {
     dispatch({ type: 'ADD_TASK', task });
   };
 
-  const editTask = (taskId: string, updatedTask: Partial<Task>) => {
+  const editTask = (taskId, updatedTask) => {
     dispatch({ type: 'EDIT_TASK', taskId, updatedTask });
   };
 
-  const deleteTask = (taskId: string) => {
+  const deleteTask = (taskId) => {
     dispatch({ type: 'DELETE_TASK', taskId });
   };
 
-  const toggleTaskStatus = (taskId: string) => {
+  const toggleTaskStatus = (taskId) => {
     dispatch({ type: 'TOGGLE_TASK_STATUS', taskId });
   };
 

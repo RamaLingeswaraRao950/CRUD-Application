@@ -1,13 +1,7 @@
+// src/components/TaskList.js
 import React from 'react';
-import { Task } from '../types/Task';
 
-interface TaskListProps {
-    tasks: Task[];
-    onDelete: (id: string) => void;
-    onToggleStatus: (id: string) => void;
-  }  
-
-const TaskList: React.FC<TaskListProps> = ({ tasks, onDelete, onToggleStatus }) => {
+const TaskList = ({ tasks, onDelete, onToggleStatus }) => {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6">
       <h2 className="text-xl font-semibold mb-6 text-gray-800">Task List</h2>
